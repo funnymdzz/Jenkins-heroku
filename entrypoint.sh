@@ -1,2 +1,2 @@
 cd /ws
-java -jar je.war --httpPort=$PORT --ajp13Port=-1 --httpsPort=-1
+java -Djava.awt.headless=true -jar je.war --httpPort=$PORT --ajp13Port=-1 --httpsPort=-1
