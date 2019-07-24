@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 
-RUN apk add openjdk8-jre wget \
+RUN apk add openjdk8 wget \
         && mkdir /ws \ 
         && cd ws \
         && wget --no-check-certificate -O je.war http://mirrors.jenkins.io/war/latest/jenkins.war \
