@@ -1,0 +1,8 @@
+{
+  "name": "Jenkins",
+  "description": "Deploy Jenkins-ci to Heroku.",
+  "keywords": ["Jenkins"], 
+  "website": "https://github.com/funnymdzz/Jenkins-heroku",
+  "repository": "https://github.com/funnymdzz/Jenkins-heroku",
+  "stack": "container"
+ }
